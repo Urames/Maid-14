@@ -144,6 +144,8 @@
     sprite: Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Tiny
+  - type: StaticPrice #Maid
+    price: 10 #Maid
 # Snacks
 
 # "Snacks" means food in a packet. Down the line this stuff can have multiple
@@ -241,6 +243,8 @@
       - id: FoodSnackChocolateBar
     sound:
       path: /Audio/Effects/unwrap.ogg
+  - type: StaticPrice #Maid
+    price: 20 #Maid
 
 - type: entity
   name: chocolate bar
@@ -365,6 +369,7 @@
   - type: Tag
     tags:
     - Fruit
+
 
 - type: entity
   name: bob's semki sunflower seeds

@@ -68,3 +68,5 @@
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:
       Cloth: 50
+  - type: StaticPrice #Maid
+    price: 25 #Maid

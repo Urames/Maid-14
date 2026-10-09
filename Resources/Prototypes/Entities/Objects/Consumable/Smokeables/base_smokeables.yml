@@ -39,8 +39,8 @@
     tags:
     - Trash
   - type: SpaceGarbage
-  - type: StaticPrice
-    price: 5
+  - type: StaticPrice #Maid
+    price: 20 #Maid
   - type: InjectableSolution
     solution: smokable
 
@@ -107,3 +107,5 @@
     solution: smokable
   - type: ExaminableSolution
     solution: smokable
+  - type: StaticPrice #Maid
+    price: 20 #Maid

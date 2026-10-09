@@ -442,6 +442,8 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/sodawater.rsi
+  - type: StaticPrice #Maid
+    price: 20 #Maid
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -692,6 +694,8 @@
     sprite: Objects/Consumable/Drinks/energy_drink.rsi
   - type: Item
     sprite: Objects/Consumable/Drinks/energy_drink.rsi
+  - type: StaticPrice #Maid
+    price: 5 #Maid
 
 - type: entity
   id: DrinkCanPack
