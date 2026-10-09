@@ -365,6 +365,8 @@
   - type: Tag
     tags:
     - Fruit
+  - type: VendingPrice # MAID
+    price: 20 # MAID
 
 - type: entity
   name: bob's semki sunflower seeds

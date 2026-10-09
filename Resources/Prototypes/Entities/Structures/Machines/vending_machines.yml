@@ -1430,6 +1430,8 @@
   - type: Rotatable
     rotateWhileAnchored: false
     rotateWhilePulling: true
+  - type: VendingPrice # MAID
+    price: 50 # MAID
 
 - type: entity
   parent: VendingMachineSnack
