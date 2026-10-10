@@ -39,7 +39,7 @@
     tags:
     - Trash
   - type: SpaceGarbage
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 20 #Maid
   - type: InjectableSolution
     solution: smokable
@@ -107,5 +107,5 @@
     solution: smokable
   - type: ExaminableSolution
     solution: smokable
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 20 #Maid

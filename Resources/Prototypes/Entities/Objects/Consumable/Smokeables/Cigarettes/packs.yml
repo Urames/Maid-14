@@ -171,7 +171,7 @@
     - cig5
     - cig6
   - type: Appearance
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 10 #Maid
 
 - type: entity
@@ -243,7 +243,7 @@
     - cig5
     - cig6
   - type: Appearance
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 10 #Maid
 
 - type: entity

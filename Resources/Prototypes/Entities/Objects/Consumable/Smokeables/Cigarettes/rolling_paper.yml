@@ -40,7 +40,7 @@
     state: cigpapers
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 5 #Maid
 
 - type: entity

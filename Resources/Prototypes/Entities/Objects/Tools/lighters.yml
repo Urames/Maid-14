@@ -184,7 +184,7 @@
   - type: Tag #Goobstation - whitelisted cig pack strorage (added new tag)
     tags:
     - Lighter
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 10 #Maid
 
 - type: entity
@@ -215,7 +215,7 @@
         - ReagentId: WeldingFuel
           Quantity: 4
         maxVol: 4 #uses less fuel than a welder, so this isnt as bad as it looks
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 5 #Maid
 
 - type: entity
@@ -314,7 +314,7 @@
   - type: Tag
     tags:
       - Lighter #Goobstation - whitelisted cig pack strorage (added tag)
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 15 #Maid
 
 - type: entity

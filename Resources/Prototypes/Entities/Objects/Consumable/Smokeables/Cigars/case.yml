@@ -124,7 +124,7 @@
     - cigar7
     - cigar8
   - type: Appearance
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 40 #Maid
 
 - type: entity

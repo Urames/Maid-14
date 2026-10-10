@@ -144,8 +144,8 @@
     sprite: Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Tiny
-  - type: StaticPrice #Maid
-    price: 10 #Maid
+  - type: VendingPrice #Maid
+    price: 30 #Maid
 # Snacks
 
 # "Snacks" means food in a packet. Down the line this stuff can have multiple
@@ -243,7 +243,7 @@
       - id: FoodSnackChocolateBar
     sound:
       path: /Audio/Effects/unwrap.ogg
-  - type: StaticPrice #Maid
+  - type: VendingPrice #Maid
     price: 20 #Maid
 
 - type: entity
@@ -369,8 +369,6 @@
   - type: Tag
     tags:
     - Fruit
-  - type: VendingPrice # MAID
-    price: 20 # MAID
 
 
 - type: entity
@@ -553,6 +551,8 @@
   - type: Food
     trash:
     - FoodCookieFortune
+  - type: VendingPrice #Maid
+    price: 12 #Maid
 
 - type: entity
   id: FoodSnackNutribrick
@@ -705,7 +705,7 @@
     materialComposition:
       Plastic: 50
   - type: SpaceGarbage
-  - type: StaticPrice
+  - type: VendingPrice #Maid
     price: 0
   - type: SolutionContainerManager
     solutions:
